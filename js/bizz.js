@@ -1,0 +1,1 @@
+export const bizz = (buzz='') => `fizz ${buzz} bizz`;
