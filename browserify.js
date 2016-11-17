@@ -10,6 +10,6 @@ echo 'Built js/bundle.js'
 
 var browserify = require('browserify');
 browserify('./js/main.js')
-	.transform("babelify", {presets: ["latest"]})
+	.transform("babelify", {presets: ["es2015"]})
 	.bundle()
 	.pipe(process.stdout);
